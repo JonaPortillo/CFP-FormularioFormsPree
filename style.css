@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+ /* Imagen de fondo del body */
+ body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url("https://forestta.files.wordpress.com/2015/05/claro-de-bosque.jpg") no-repeat center/cover;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    
+  }
+
+  /* Contenedor del formulario */
+  .form-container {
+
+    background: rgba(255, 255, 255, 0.3); /* Fondo blanco semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    max-width: 400px;
+    width: 100%;
+    color: white;
+  }
+
+  /* Estilos para el formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
